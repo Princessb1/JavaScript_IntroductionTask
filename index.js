@@ -1,7 +1,17 @@
-let myName = "Garba Blessing Regina";
-let myHeight = "1.60m";
-let myCountry = "Nigeria";
+let nameOf = "Garba Blessing Regina";
+let height = "160cm";
+let country = "Nigeria";
 
-document.getElementById("myName").innerHTML = "My Name is: " + myName;
-document.getElementById("myHeight").innerHTML = "My Height is: " + myHeight;
-document.getElementById("myCountry").innerHTML = "My Country is: " + myCountry;
+alert(
+  "Name: " +
+    " " +
+    nameOf +
+    "\n" +
+    "Height: " +
+    " " +
+    height +
+    "\n" +
+    "Country: " +
+    " " +
+    country
+);
